@@ -1,0 +1,31 @@
+{
+    // miscellaneous used settings
+    "team.showWelcomeMessage": false,
+    "extensions.ignoreRecommendations": true,
+
+    // editor settings
+    "editor.detectIndentation": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.cursorBlinking": "phase",
+    "editor.wordWrap": "on",
+    "editor.rulers": [
+        200
+    ],
+
+    // window settings
+    "window.restoreWindows": "none",
+
+    // integrated terminal settings
+    "terminal.integrated.cwd": "C:\\_projects\\",
+    "terminal.integrated.confirmOnExit": true,
+
+    // powershell settings
+    "powershell.integratedConsole.showOnStartup": false,
+
+    // Extension settings
+    "extensions.autoUpdate": false,
+
+    // git settings
+    "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
+    "git.defaultCloneDirectory": "C:\\_projects\\",
+}

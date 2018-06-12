@@ -11,5 +11,9 @@
     {
         "key": "ctrl+k s",
         "command": "saveAll"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "workbench.view.scm"
     }
 ]

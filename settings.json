@@ -29,7 +29,14 @@
     // powershell settings
     "powershell.integratedConsole.showOnStartup": false,
 
-    // Extension settings
+    // extension settings
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
+
+    // extension specific settings
+    "markdownlint.config": {
+        "default": true,
+        "MD040": false,
+        "MD007": { "indent": 4 },
+    }
 }

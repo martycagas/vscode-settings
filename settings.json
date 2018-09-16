@@ -18,8 +18,7 @@
     // workbench settings
     "workbench.colorTheme": "Visual Studio Dark",
     "workbench.settings.editor": "ui",
-
-    // window settings
+    "window.titleBarStyle": "custom",
     "window.restoreWindows": "none",
 
     // integrated terminal settings

@@ -22,6 +22,7 @@
     "window.restoreWindows": "none",
 
     // integrated terminal settings
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "terminal.integrated.cwd": "C:\\_projects\\",
     "terminal.integrated.confirmOnExit": true,
 
@@ -37,5 +38,5 @@
         "default": true,
         "MD040": false,
         "MD007": { "indent": 4 },
-    }
+    },
 }

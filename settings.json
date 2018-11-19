@@ -10,6 +10,11 @@
     "editor.rulers": [
         200
     ],
+    "workbench.editor.highlightModifiedTabs": true,
+
+    // serach options
+    "search.usePCRE2": true,
+    "search.showLineNumbers": true,
 
     // git settings
     "git.path": "C:\\Program Files\\Git\\bin\\git.exe",

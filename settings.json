@@ -1,4 +1,8 @@
 {
+    "files.associations": {
+        "*.mak": "makefile"
+    },
+
     // miscellaneous used settings
     "team.showWelcomeMessage": false,
 

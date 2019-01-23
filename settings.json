@@ -16,6 +16,10 @@
     ],
     "workbench.editor.highlightModifiedTabs": true,
 
+    // files settings
+    "files.insertFinalNewline": true,
+    "files.eol": "\r\n",
+
     // serach options
     "search.usePCRE2": true,
     "search.showLineNumbers": true,

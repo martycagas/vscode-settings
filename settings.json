@@ -12,7 +12,7 @@
     "editor.cursorBlinking": "phase",
     "editor.wordWrap": "on",
     "editor.rulers": [
-        200
+        160
     ],
     "workbench.editor.highlightModifiedTabs": true,
 
@@ -36,7 +36,7 @@
 
     // integrated terminal settings
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-    "terminal.integrated.cwd": "C:\\_projects\\",
+    "terminal.integrated.cwd": "D:\\_projects\\",
     "terminal.integrated.confirmOnExit": true,
 
     // powershell settings
@@ -53,4 +53,6 @@
         "MD036": false,
         "MD040": false,
     },
+
+    "python.jediEnabled": false,
 }

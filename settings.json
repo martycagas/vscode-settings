@@ -7,13 +7,33 @@
     "team.showWelcomeMessage": false,
 
     // editor settings
+    "editor.accessibilitySupport": "off",
     "editor.detectIndentation": false,
+    "editor.dragAndDrop": false,
+    "editor.links": false,
     "editor.minimap.renderCharacters": false,
     "editor.cursorBlinking": "phase",
     "editor.wordWrap": "on",
-    "editor.rulers": [
-        160
-    ],
+    "editor.rulers": [200],
+
+    // language specific formatter settings
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+
+    // workbench settings
     "workbench.editor.highlightModifiedTabs": true,
 
     // files settings
@@ -21,7 +41,6 @@
     "files.eol": "\r\n",
 
     // serach options
-    "search.usePCRE2": true,
     "search.showLineNumbers": true,
 
     // git settings
@@ -49,10 +68,20 @@
     // extension specific settings
     "markdownlint.config": {
         "default": true,
-        "MD007": { "indent": 4 },
+        // Set M007 to false to suppress warning from using a table of contents
+        "MD007": false,
         "MD036": false,
-        "MD040": false,
+        "MD040": false
     },
 
+    // C/C++ extension settings
+    "C_Cpp.updateChannel": "Insiders",
+
+    // Python extension settings
     "python.jediEnabled": false,
+
+    // ES6 and JSON settings
+    "json.maxItemsComputed": 8000,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.tabWidth": 4
 }

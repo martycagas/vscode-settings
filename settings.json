@@ -38,7 +38,7 @@
 
     // files settings
     "files.insertFinalNewline": true,
-    "files.eol": "\r\n",
+    "files.eol": "\n",
 
     // serach options
     "search.showLineNumbers": true,

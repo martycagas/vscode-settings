@@ -14,7 +14,7 @@
     "editor.minimap.renderCharacters": false,
     "editor.cursorBlinking": "phase",
     "editor.wordWrap": "on",
-    "editor.rulers": [200],
+    "editor.rulers": [100, 140],
 
     // language specific formatter settings
     "[javascriptreact]": {

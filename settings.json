@@ -39,6 +39,12 @@
 
     // workbench settings
     "workbench.editor.highlightModifiedTabs": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.settings.editor": "ui",
+
+    // windows settings
+    "window.titleBarStyle": "custom",
+    "window.restoreWindows": "none",
 
     // files settings
     "files.insertFinalNewline": true,
@@ -50,12 +56,6 @@
     // git settings
     "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
     "git.defaultCloneDirectory": "D:\\_projects\\",
-
-    // workbench settings
-    "workbench.colorTheme": "Visual Studio Dark",
-    "workbench.settings.editor": "ui",
-    "window.titleBarStyle": "custom",
-    "window.restoreWindows": "none",
 
     // integrated terminal settings
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",

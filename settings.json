@@ -39,7 +39,7 @@
 
     // workbench settings
     "workbench.editor.highlightModifiedTabs": true,
-    "workbench.colorTheme": "Visual Studio 2019 Dark",
+    "workbench.colorTheme": "Visual Studio Dark",
     "workbench.settings.editor": "ui",
 
     // windows settings

@@ -14,7 +14,7 @@
     "editor.minimap.renderCharacters": false,
     "editor.cursorBlinking": "phase",
     "editor.wordWrap": "on",
-    "editor.rulers": [100, 140],
+    "editor.rulers": [120, 140],
     "editor.columnSelection": false,
 
     // language specific formatter settings
@@ -39,7 +39,7 @@
 
     // workbench settings
     "workbench.editor.highlightModifiedTabs": true,
-    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "Visual Studio 2019 Dark",
     "workbench.settings.editor": "ui",
 
     // windows settings

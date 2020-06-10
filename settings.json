@@ -7,6 +7,7 @@
     "team.showWelcomeMessage": false,
 
     // editor settings
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
     "editor.accessibilitySupport": "off",
     "editor.detectIndentation": false,
     "editor.dragAndDrop": false,
@@ -87,6 +88,5 @@
     // ES6 and JSON settings
     "json.maxItemsComputed": 8000,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "prettier.tabWidth": 4,
-    
+    "prettier.tabWidth": 4
 }

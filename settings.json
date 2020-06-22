@@ -38,7 +38,7 @@
     // workbench settings
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.colorTheme": "Visual Studio Dark",
-    "workbench.settings.editor": "ui",
+    "workbench.settings.editor": "json",
 
     // windows settings
     "window.titleBarStyle": "custom",

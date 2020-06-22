@@ -3,9 +3,6 @@
         "*.mak": "makefile"
     },
 
-    // miscellaneous used settings
-    "team.showWelcomeMessage": false,
-
     // editor settings
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
     "editor.accessibilitySupport": "off",
@@ -81,9 +78,6 @@
 
     // C/C++ extension settings
     "C_Cpp.updateChannel": "Insiders",
-
-    // Python extension settings
-    "python.jediEnabled": false,
 
     // ES6 and JSON settings
     "json.maxItemsComputed": 8000,

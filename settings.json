@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "*.mak": "makefile"
+        "*.mak": "makefile",
+        "*.tpp": "cpp"
     },
 
     // editor settings

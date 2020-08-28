@@ -87,5 +87,16 @@
     // ES6 and JSON settings
     "json.maxItemsComputed": 8000,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
+    "git.confirmSync": false,
+
+    // GitLens settings
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.fileHistory.location": "explorer",
+    "gitlens.views.lineHistory.location": "explorer",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+    "gitlens.defaultDateFormat": "DD-MMMM-YYYY, HH:mm",
+    "gitlens.defaultDateShortFormat": "DD-MMMM-YYYY",
+    "gitlens.codeLens.enabled": false
 }

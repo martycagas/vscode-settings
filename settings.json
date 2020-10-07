@@ -71,6 +71,7 @@
     // extension settings
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
+    "extensions.showRecommendationsOnlyOnDemand": true,
 
     // extension specific settings
     "markdownlint.config": {

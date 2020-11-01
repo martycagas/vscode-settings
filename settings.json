@@ -76,9 +76,13 @@
     // extension specific settings
     "markdownlint.config": {
         "default": true,
-        // Set M007 to false to suppress warning from using a table of contents
+        // Suppress MD007 to remove warnings from using table of contents
         "MD007": false,
+        // Suppress MD026 to remove warnings from using question marks at the end of headings
+        "MD026": false,
+        // Suppress MD036 because emphasis as headers can sometimes lead to a more readable code
         "MD036": false,
+        // Suppress MD040 because sometimes it's in order to use code block for monospaced plaintext
         "MD040": false
     },
 

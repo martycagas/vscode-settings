@@ -45,7 +45,7 @@
     "workbench.editor.wrapTabs": true,
 
     "workbench.colorTheme": "Visual Studio Dark",
-    
+
     "workbench.settings.editor": "json",
 
     // windows settings
@@ -75,7 +75,7 @@
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
 
-    // extension specific settings
+    // Markdownlint extension settings
     "markdownlint.config": {
         "default": true,
         // Suppress MD007 to remove warnings from using table of contents
@@ -106,5 +106,7 @@
     "gitlens.defaultDateFormat": "DD-MMMM-YYYY, HH:mm",
     "gitlens.defaultDateShortFormat": "DD-MMMM-YYYY",
     "gitlens.codeLens.enabled": false,
+
+    // Python extension settings
     "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe"
 }

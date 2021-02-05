@@ -42,7 +42,10 @@
 
     // workbench settings
     "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.wrapTabs": true,
+
     "workbench.colorTheme": "Visual Studio Dark",
+    
     "workbench.settings.editor": "json",
 
     // windows settings
@@ -71,7 +74,6 @@
     // extension settings
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
-    "extensions.showRecommendationsOnlyOnDemand": true,
 
     // extension specific settings
     "markdownlint.config": {
@@ -103,5 +105,6 @@
     "gitlens.views.search.location": "gitlens",
     "gitlens.defaultDateFormat": "DD-MMMM-YYYY, HH:mm",
     "gitlens.defaultDateShortFormat": "DD-MMMM-YYYY",
-    "gitlens.codeLens.enabled": false
+    "gitlens.codeLens.enabled": false,
+    "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe"
 }

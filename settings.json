@@ -6,6 +6,8 @@
 
     // editor settings
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.inlineHints.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
     "editor.accessibilitySupport": "off",
     "editor.detectIndentation": false,
     "editor.dragAndDrop": false,
@@ -14,7 +16,6 @@
     "editor.cursorBlinking": "phase",
     "editor.wordWrap": "on",
     "editor.rulers": [120, 140],
-    "editor.columnSelection": false,
 
     // files settings
     "files.insertFinalNewline": true,

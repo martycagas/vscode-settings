@@ -44,9 +44,7 @@
     // workbench settings
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.wrapTabs": true,
-
     "workbench.colorTheme": "Visual Studio Dark",
-
     "workbench.settings.editor": "json",
 
     // windows settings
@@ -67,7 +65,7 @@
     // integrated terminal settings
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "terminal.integrated.cwd": "D:\\_projects\\",
-    "terminal.integrated.confirmOnExit": true,
+    "terminal.integrated.enablePersistentSessions": false,
 
     // powershell settings
     "powershell.integratedConsole.showOnStartup": false,
@@ -95,7 +93,11 @@
     // ES6 and JSON settings
     "json.maxItemsComputed": 8000,
     "javascript.updateImportsOnFileMove.enabled": "always",
+
+    // Prettier - Code Formatter settings
     "prettier.tabWidth": 4,
+
+    // git settings
     "git.confirmSync": false,
 
     // GitLens settings

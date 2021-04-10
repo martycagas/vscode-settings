@@ -26,8 +26,7 @@
     },
     {
         "key": "ctrl+w",
-        "command": "-workbench.action.closeWindow",
-        "when": "!editorIsOpen && !multipleEditorGroups"
+        "command": "-workbench.action.closeWindow"
     },
     {
         "key": "ctrl+w",
@@ -35,26 +34,35 @@
     },
     {
         "key": "ctrl+w",
-        "command": "-workbench.action.closeGroup",
-        "when": "activeEditorGroupEmpty && multipleEditorGroups"
+        "command": "-workbench.action.closeGroup"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-editor.action.smartSelect.expand"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorTextFocus"
     },
     {
         "key": "shift+alt+f",
-        "command": "-editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+        "command": "-editor.action.formatDocument"
     },
     {
         "key": "shift+alt+f",
-        "command": "-editor.action.formatDocument.none",
-        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorHasDocumentFormattingProvider && !editorReadonly"
+        "command": "-editor.action.formatDocument.none"
     },
     {
         "key": "ctrl+k ctrl+d",
-        "command": "-editor.action.moveSelectionToNextFindMatch",
-        "when": "editorFocus"
+        "command": "-editor.action.moveSelectionToNextFindMatch"
     },
     {
         "key": "ctrl+shift+w",
         "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-editor.action.addSelectionToNextFindMatch"
     }
 ]

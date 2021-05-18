@@ -64,7 +64,6 @@
     "git.defaultCloneDirectory": "D:\\_projects\\",
 
     // integrated terminal settings
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "terminal.integrated.cwd": "D:\\_projects\\",
     "terminal.integrated.enablePersistentSessions": false,
 
@@ -74,6 +73,46 @@
     // extension settings
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
+
+    // Better Comments settings
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
 
     // Markdownlint extension settings
     "markdownlint.config": {
@@ -112,5 +151,11 @@
     "gitlens.codeLens.enabled": false,
 
     // Python extension settings
-    "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe"
+    "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
 }

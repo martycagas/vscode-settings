@@ -8,7 +8,7 @@
     // editor settings
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
     "editor.inlineHints.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true,
+    "editor.fontLigatures": false,
     "editor.accessibilitySupport": "off",
     "editor.detectIndentation": false,
     "editor.dragAndDrop": false,

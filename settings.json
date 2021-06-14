@@ -64,7 +64,6 @@
     "git.defaultCloneDirectory": "D:\\_projects\\",
 
     // integrated terminal settings
-    "terminal.integrated.cwd": "D:\\_projects\\",
     "terminal.integrated.enablePersistentSessions": false,
 
     // powershell settings
@@ -152,10 +151,8 @@
 
     // Python extension settings
     "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe",
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ]
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "workbench.startupEditor": "gettingStarted"
 }

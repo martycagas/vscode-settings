@@ -153,6 +153,5 @@
     "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe",
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
-    },
-    "workbench.startupEditor": "gettingStarted"
+    }
 }

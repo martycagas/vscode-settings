@@ -19,8 +19,9 @@
     "editor.rulers": [120, 140],
 
     // files settings
-    "files.insertFinalNewline": true,
     "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
 
     // language specific formatter settings
     "[javascriptreact]": {

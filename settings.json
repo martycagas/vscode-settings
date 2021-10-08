@@ -2,7 +2,6 @@
     "files.associations": {
         "*.mak": "makefile",
         "*.tpp": "cpp",
-        "*.svh": "systemverilog"
     },
 
     // editor settings

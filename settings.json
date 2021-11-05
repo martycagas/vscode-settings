@@ -1,13 +1,14 @@
 {
     "files.associations": {
         "*.mak": "makefile",
-        "*.tpp": "cpp",
+        "*.tpp": "cpp"
     },
 
     // editor settings
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
     "editor.inlineHints.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": false,
+    "editor.inlineSuggest.enabled": true,
     "editor.accessibilitySupport": "off",
     "editor.detectIndentation": false,
     "editor.dragAndDrop": false,

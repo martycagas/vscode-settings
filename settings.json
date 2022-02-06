@@ -7,7 +7,6 @@
     // editor settings
     "workbench.experimental.layoutControl.enabled": true,
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-    "editor.inlineHints.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": false,
     "editor.inlineSuggest.enabled": true,
     "editor.accessibilitySupport": "off",

@@ -129,9 +129,6 @@
         "MD040": false
     },
 
-    // C/C++ extension settings
-    "C_Cpp.updateChannel": "Insiders",
-
     // CMake Tools extension settings
     "cmake.configureOnOpen": true,
 

@@ -132,6 +132,13 @@
     // CMake Tools extension settings
     "cmake.configureOnOpen": true,
 
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    },
+
     // ES6 and JSON settings
     "json.maxItemsComputed": 8000,
     "javascript.updateImportsOnFileMove.enabled": "always",

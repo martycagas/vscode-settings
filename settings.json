@@ -1,11 +1,5 @@
 {
-    "files.associations": {
-        "*.mak": "makefile",
-        "*.tpp": "cpp"
-    },
-
     // editor settings
-    "workbench.layoutControl.enabled": true,
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": false,
     "editor.inlineSuggest.enabled": true,
@@ -19,9 +13,19 @@
     "editor.rulers": [120, 140],
 
     // files settings
+    "files.associations": {
+        "*.mak": "makefile",
+        "*.tpp": "cpp"
+    },
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+
+    // workbench settings
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.layoutControl.enabled": true,
 
     // language specific formatter settings
     "[javascriptreact]": {
@@ -163,8 +167,5 @@
     "gitlens.codeLens.enabled": false,
 
     // Python extension settings
-    "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe",
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
-    }
+    "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe"
 }

@@ -175,8 +175,5 @@
     "gitlens.views.search.location": "gitlens",
     "gitlens.defaultDateFormat": "DD-MMMM-YYYY, HH:mm",
     "gitlens.defaultDateShortFormat": "DD-MMMM-YYYY",
-    "gitlens.codeLens.enabled": false,
-
-    // Python extension settings
-    "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe"
+    "gitlens.codeLens.enabled": false
 }

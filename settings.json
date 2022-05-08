@@ -4,6 +4,7 @@
     "editor.fontLigatures": false,
     "editor.inlineSuggest.enabled": true,
     "editor.accessibilitySupport": "off",
+    "editor.bracketPairColorization.enabled": false,
     "editor.detectIndentation": false,
     "editor.dragAndDrop": false,
     "editor.links": false,

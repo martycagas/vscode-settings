@@ -28,12 +28,18 @@
     },
     "workbench.layoutControl.enabled": true,
 
-    // language specific formatter settings
+    // language specific settings
     "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.bracketPairColorization.enabled": true
     },
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.bracketPairColorization.enabled": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.bracketPairColorization.enabled": true
     },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -45,7 +51,11 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[markdown]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.wordBasedSuggestions": false
+    },
+    "[plaintext]": {
+        "editor.wordBasedSuggestions": false
     },
 
     // workbench settings

@@ -52,7 +52,8 @@
     },
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.wordBasedSuggestions": false
+        "editor.wordBasedSuggestions": false,
+        "editor.tabSize": 2
     },
     "[plaintext]": {
         "editor.wordBasedSuggestions": false

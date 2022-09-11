@@ -137,7 +137,7 @@
         "default": true,
         // Suppress MD007 to remove warnings from using table of contents
         "MD007": false,
-        // Suppress MD014 to remove warnings from not showing a comman output after using $
+        // Suppress MD014 to remove warnings from not showing a command output after using $
         // Some commands just don't have an output to show or it's obvious what the output is
         "MD014": false,
         // Suppress MD026 to remove warnings from using question marks at the end of headings

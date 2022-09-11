@@ -8,10 +8,13 @@
     "editor.detectIndentation": false,
     "editor.dragAndDrop": false,
     "editor.links": false,
-    "editor.minimap.renderCharacters": false,
-    "editor.cursorBlinking": "phase",
-    "editor.wordWrap": "on",
     "editor.rulers": [120, 140],
+    "editor.unicodeHighlight.allowedLocales": {
+        "_os": false
+    },
+    "editor.wordWrap": "on",
+    "editor.cursorBlinking": "phase",
+    "editor.minimap.renderCharacters": false,
 
     // files settings
     "files.associations": {

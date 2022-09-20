@@ -92,6 +92,10 @@
     // powershell settings
     "powershell.integratedConsole.showOnStartup": false,
 
+    // workspace security settings
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "security.workspace.trust.banner": "always",
+
     // extension settings
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,

@@ -32,15 +32,19 @@
     "workbench.layoutControl.enabled": true,
 
     // language specific settings
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.bracketPairColorization.enabled": true
-    },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.bracketPairColorization.enabled": true
     },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.bracketPairColorization.enabled": true
+    },
     "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.bracketPairColorization.enabled": true
+    },
+    "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.bracketPairColorization.enabled": true
     },
@@ -51,7 +55,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -171,6 +175,7 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
 
     // Prettier - Code Formatter settings
+    "prettier.printWidth": 140,
     "prettier.tabWidth": 4,
 
     // git settings

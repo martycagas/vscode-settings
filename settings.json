@@ -95,7 +95,6 @@
     "search.showLineNumbers": true,
 
     // git settings
-    "git.defaultCloneDirectory": "D:\\_projects\\",
     "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
     "git.suggestSmartCommit": false,
 

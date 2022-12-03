@@ -65,6 +65,15 @@
     "[plaintext]": {
         "editor.wordBasedSuggestions": false
     },
+    "[git-commit]": {
+        "editor.rulers": [72],
+        "editor.wordBasedSuggestions": false,
+        "workbench.editor.restoreViewState": false
+    },
+    "[git-rebase]": {
+        "editor.wordBasedSuggestions": false,
+        "workbench.editor.restoreViewState": false
+    },
 
     // workbench settings
     "workbench.colorTheme": "Visual Studio Dark",

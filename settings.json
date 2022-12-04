@@ -171,6 +171,7 @@
     // CMake Tools extension settings
     "cmake.configureOnOpen": true,
 
+    // GitHub Copilot extension settings
     "github.copilot.enable": {
         "*": true,
         "plaintext": false,

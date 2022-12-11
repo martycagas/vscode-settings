@@ -64,5 +64,9 @@
     {
         "key": "ctrl+d",
         "command": "-editor.action.addSelectionToNextFindMatch"
+    },
+    {
+        "key": "ctrl+r ctrl+w",
+        "command": "-editor.action.toggleRenderWhitespace"
     }
 ]

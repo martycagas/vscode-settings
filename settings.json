@@ -101,6 +101,7 @@
 
     // integrated terminal settings
     "terminal.integrated.enablePersistentSessions": false,
+    "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
 
     // powershell settings
     "powershell.integratedConsole.showOnStartup": false,

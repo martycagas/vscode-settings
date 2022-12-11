@@ -15,6 +15,7 @@
     "editor.wordWrap": "on",
     "editor.cursorBlinking": "phase",
     "editor.minimap.renderCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
 
     // files settings
     "files.associations": {

@@ -68,5 +68,10 @@
     {
         "key": "ctrl+r ctrl+w",
         "command": "-editor.action.toggleRenderWhitespace"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-list.find",
+        "when": "listFocus && listSupportsFind"
     }
 ]

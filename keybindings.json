@@ -21,10 +21,6 @@
         "command": "workbench.view.scm"
     },
     {
-        "key": "ctrl+shift+a",
-        "command": "editor.action.toggleColumnSelection"
-    },
-    {
         "key": "ctrl+w",
         "command": "-workbench.action.closeWindow"
     },

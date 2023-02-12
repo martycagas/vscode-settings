@@ -69,5 +69,25 @@
         "key": "ctrl+f",
         "command": "-list.find",
         "when": "listFocus && listSupportsFind"
+    },
+    {
+        "key": "ctrl+k ctrl+s",
+        "command": "editor.action.formatSelection",
+        "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+f",
+        "command": "-editor.action.formatSelection",
+        "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+f",
+        "command": "workbench.action.closeFolder",
+        "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
+    },
+    {
+        "key": "ctrl+k f",
+        "command": "-workbench.action.closeFolder",
+        "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
     }
 ]

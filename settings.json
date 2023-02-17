@@ -193,11 +193,6 @@
     "git.confirmSync": false,
 
     // GitLens settings
-    "gitlens.views.repositories.location": "scm",
-    "gitlens.views.fileHistory.location": "gitlens",
-    "gitlens.views.lineHistory.location": "gitlens",
-    "gitlens.views.compare.location": "gitlens",
-    "gitlens.views.search.location": "gitlens",
     "gitlens.defaultDateFormat": "DD-MMMM-YYYY, HH:mm",
     "gitlens.defaultDateShortFormat": "DD-MMMM-YYYY",
     "gitlens.codeLens.enabled": false

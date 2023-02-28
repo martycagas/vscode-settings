@@ -177,6 +177,8 @@
     "github.copilot.enable": {
         "*": true,
         "yaml": false,
+        "toml": false,
+        "properties": false,
         "plaintext": false,
         "markdown": false
     },

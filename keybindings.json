@@ -42,6 +42,11 @@
         "when": "editorTextFocus"
     },
     {
+        "key": "ctrl+shift+w",
+        "command": "editor.action.selectToBracket",
+        "when": "editorTextFocus"
+    },
+    {
         "key": "shift+alt+f",
         "command": "-editor.action.formatDocument"
     },
@@ -98,5 +103,14 @@
         "key": "ctrl+k f",
         "command": "-workbench.action.closeFolder",
         "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
+    },
+    {
+        "key": "shift+delete",
+        "command": "-editor.action.clipboardCutAction"
+    },
+    {
+        "key": "shift+delete",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]

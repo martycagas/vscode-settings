@@ -5,6 +5,7 @@
     "editor.inlineSuggest.enabled": true,
     "editor.accessibilitySupport": "off",
     "editor.bracketPairColorization.enabled": false,
+    "editor.copyWithSyntaxHighlighting": false,
     "editor.detectIndentation": false,
     "editor.dragAndDrop": false,
     "editor.emptySelectionClipboard": false,
@@ -16,6 +17,8 @@
     "editor.wordWrap": "on",
     "editor.cursorBlinking": "phase",
     "editor.minimap.renderCharacters": false,
+
+    // diff editor settings
     "diffEditor.ignoreTrimWhitespace": false,
 
     // files settings
@@ -32,6 +35,12 @@
         "*.ipynb": "jupyter-notebook"
     },
     "workbench.layoutControl.enabled": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.wrapTabs": true,
+    "workbench.settings.editor": "json",
 
     // language specific settings
     "[javascript]": {
@@ -79,13 +88,6 @@
         "editor.wordBasedSuggestions": false,
         "workbench.editor.restoreViewState": false
     },
-
-    // workbench settings
-    "workbench.colorTheme": "Visual Studio Dark",
-    "workbench.editor.highlightModifiedTabs": true,
-    "workbench.editor.untitled.hint": "hidden",
-    "workbench.editor.wrapTabs": true,
-    "workbench.settings.editor": "json",
 
     // windows settings
     "window.commandCenter": true,

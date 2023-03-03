@@ -1,5 +1,5 @@
 {
-    // editor settings
+    // EDITOR SETTINGS
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": false,
     "editor.inlineSuggest.enabled": true,
@@ -18,10 +18,10 @@
     "editor.cursorBlinking": "phase",
     "editor.minimap.renderCharacters": false,
 
-    // diff editor settings
+    // DIFF EDITOR SETTINGS
     "diffEditor.ignoreTrimWhitespace": false,
 
-    // files settings
+    // FILES SETTINGS
     "files.associations": {
         "*.mak": "makefile",
         "*.tpp": "cpp"
@@ -30,7 +30,7 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
 
-    // workbench settings
+    // WORKBENCH SETTINGS
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
@@ -42,7 +42,7 @@
     "workbench.editor.wrapTabs": true,
     "workbench.settings.editor": "json",
 
-    // language specific settings
+    // LANGUAGE SPECIFIC SETTINGS
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.bracketPairColorization.enabled": true
@@ -89,38 +89,38 @@
         "workbench.editor.restoreViewState": false
     },
 
-    // windows settings
+    // WINDOWS SETTINGS
     "window.commandCenter": true,
     "window.titleBarStyle": "custom",
     "window.restoreWindows": "none",
 
-    // SCM settings
+    // SCM SETTINGS
     "scm.alwaysShowActions": true,
     "scm.alwaysShowRepositories": true,
 
-    // serach options
+    // SERACH OPTIONS
     "search.showLineNumbers": true,
 
-    // git settings
+    // GIT SETTINGS
     "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
     "git.suggestSmartCommit": false,
 
-    // integrated terminal settings
+    // INTEGRATED TERMINAL SETTINGS
     "terminal.integrated.enablePersistentSessions": false,
     "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
 
-    // powershell settings
+    // POWERSHELL SETTINGS
     "powershell.integratedConsole.showOnStartup": false,
 
-    // workspace security settings
+    // WORKSPACE SECURITY SETTINGS
     "security.workspace.trust.untrustedFiles": "newWindow",
     "security.workspace.trust.banner": "always",
 
-    // extension settings
+    // EXTENSION SETTINGS
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
 
-    // Better Comments settings
+    // BETTER COMMENTS SETTINGS
     "better-comments.tags": [
         {
             "tag": "!",
@@ -160,7 +160,7 @@
         }
     ],
 
-    // Markdownlint extension settings
+    // MARKDOWNLINT EXTENSION SETTINGS
     "markdownlint.config": {
         "default": true,
         // Suppress MD007 to remove warnings from using table of contents
@@ -176,10 +176,10 @@
         "MD040": false
     },
 
-    // CMake Tools extension settings
+    // CMAKE TOOLS EXTENSION SETTINGS
     "cmake.configureOnOpen": true,
 
-    // GitHub Copilot extension settings
+    // GITHUB COPILOT EXTENSION SETTINGS
     "github.copilot.enable": {
         "*": true,
         "yaml": false,
@@ -189,18 +189,18 @@
         "markdown": false
     },
 
-    // ES6 and JSON settings
+    // ES6 AND JSON SETTINGS
     "json.maxItemsComputed": 8000,
     "javascript.updateImportsOnFileMove.enabled": "always",
 
-    // Prettier - Code Formatter settings
+    // PRETTIER - CODE FORMATTER SETTINGS
     "prettier.printWidth": 120,
     "prettier.tabWidth": 4,
 
-    // git settings
+    // GIT SETTINGS
     "git.confirmSync": false,
 
-    // GitLens settings
+    // GITLENS SETTINGS
     "gitlens.defaultDateFormat": "DD-MMMM-YYYY, HH:mm",
     "gitlens.defaultDateShortFormat": "DD-MMMM-YYYY",
     "gitlens.codeLens.enabled": false

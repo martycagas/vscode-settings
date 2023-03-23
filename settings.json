@@ -43,6 +43,12 @@
     "workbench.settings.editor": "json",
 
     // LANGUAGE SPECIFIC SETTINGS
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "gitlens.codeLens.symbolScopes": ["!Module"],
+        "editor.wordBasedSuggestions": false,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.bracketPairColorization.enabled": true
@@ -196,6 +202,9 @@
     // PRETTIER - CODE FORMATTER SETTINGS
     "prettier.printWidth": 120,
     "prettier.tabWidth": 4,
+
+    // PYTHON EXTENSION SETTINGS
+    "python.formatting.provider": "none",
 
     // GIT SETTINGS
     "git.confirmSync": false,

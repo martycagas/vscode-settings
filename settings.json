@@ -47,7 +47,8 @@
         "diffEditor.ignoreTrimWhitespace": false,
         "gitlens.codeLens.symbolScopes": ["!Module"],
         "editor.wordBasedSuggestions": false,
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnType": true
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",

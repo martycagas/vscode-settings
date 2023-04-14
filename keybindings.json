@@ -123,6 +123,11 @@
         "when": "inQuickOpen && inRecentFilesPicker"
     },
     {
+        "key": "ctrl+shift+r",
+        "command": "-workbench.action.quickOpenNavigatePreviousInRecentFilesPicker",
+        "when": "inQuickOpen && inRecentFilesPicker"
+    },
+    {
         "key": "ctrl+k w",
         "command": "-workbench.action.closeEditorsInGroup"
     },

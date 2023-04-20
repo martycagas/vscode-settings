@@ -116,9 +116,6 @@
     "terminal.integrated.enablePersistentSessions": false,
     "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
 
-    // POWERSHELL SETTINGS
-    "powershell.integratedConsole.showOnStartup": false,
-
     // WORKSPACE SECURITY SETTINGS
     "security.workspace.trust.untrustedFiles": "newWindow",
     "security.workspace.trust.banner": "always",

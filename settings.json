@@ -203,6 +203,9 @@
 
     // PYTHON EXTENSION SETTINGS
     "python.analysis.addImport.exactMatchOnly": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnnecessaryIsInstance": "information"
+    },
     "python.analysis.importFormat": "relative",
     "python.analysis.typeCheckingMode": "strict",
     "python.formatting.provider": "none",

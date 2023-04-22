@@ -114,7 +114,7 @@
 
     // INTEGRATED TERMINAL SETTINGS
     "terminal.integrated.enablePersistentSessions": false,
-    "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "terminal.external.windowsExec": "wt",
 
     // WORKSPACE SECURITY SETTINGS
     "security.workspace.trust.untrustedFiles": "newWindow",

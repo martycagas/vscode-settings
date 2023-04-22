@@ -201,13 +201,15 @@
     "prettier.printWidth": 120,
     "prettier.tabWidth": 4,
 
-    // PYTHON EXTENSION SETTINGS
+    // PYLANCE EXTENSION SETTINGS
     "python.analysis.addImport.exactMatchOnly": true,
     "python.analysis.diagnosticSeverityOverrides": {
         "reportUnnecessaryIsInstance": "information"
     },
     "python.analysis.importFormat": "relative",
     "python.analysis.typeCheckingMode": "strict",
+
+    // PYTHON EXTENSION SETTINGS
     "python.formatting.provider": "none",
 
     // GIT SETTINGS

@@ -138,5 +138,19 @@
     {
         "key": "ctrl+f4",
         "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+k ctrl+o",
+        "command": "-workbench.action.files.openLocalFolder",
+        "when": "remoteFileDialogVisible"
+    },
+    {
+        "key": "ctrl+k ctrl+o",
+        "command": "-workbench.action.files.openFolder",
+        "when": "openFolderWorkspaceSupport"
+    },
+    {
+        "key": "ctrl+k ctrl+o",
+        "command": "workbench.action.closeOtherEditors"
     }
 ]

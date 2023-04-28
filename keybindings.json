@@ -152,5 +152,15 @@
     {
         "key": "ctrl+k ctrl+o",
         "command": "workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-editor.action.clipboardCutAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "-editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]

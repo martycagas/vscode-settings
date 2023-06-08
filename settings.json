@@ -109,6 +109,8 @@
     "search.showLineNumbers": true,
 
     // GIT SETTINGS
+    "git.confirmSync": false,
+    "git.defaultBranchName": "",
     "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
     "git.suggestSmartCommit": false,
 
@@ -211,9 +213,6 @@
 
     // PYTHON EXTENSION SETTINGS
     "python.formatting.provider": "none",
-
-    // GIT SETTINGS
-    "git.confirmSync": false,
 
     // GITLENS SETTINGS
     "gitlens.defaultDateFormat": "DD-MMMM-YYYY, HH:mm",

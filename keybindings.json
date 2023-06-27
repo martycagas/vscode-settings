@@ -162,5 +162,10 @@
         "key": "ctrl+shift+l",
         "command": "-editor.action.deleteLines",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k e",
+        "command": "-workbench.files.action.focusOpenEditorsView",
+        "when": "workbench.explorer.openEditorsView.active"
     }
 ]

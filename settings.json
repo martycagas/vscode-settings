@@ -10,7 +10,7 @@
     "editor.dragAndDrop": false,
     "editor.emptySelectionClipboard": false,
     "editor.links": false,
-    "editor.rulers": [120, 140],
+    "editor.rulers": [72, 144],
     "editor.unicodeHighlight.allowedLocales": {
         "_os": false
     },
@@ -46,6 +46,7 @@
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false,
         "gitlens.codeLens.symbolScopes": ["!Module"],
+        "editor.rulers": [80, 120],
         "editor.wordBasedSuggestions": false,
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnType": true
@@ -141,15 +142,6 @@
             "tag": "?",
             "color": "#3498DB",
             "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "//",
-            "color": "#474747",
-            "strikethrough": true,
             "underline": false,
             "backgroundColor": "transparent",
             "bold": false,

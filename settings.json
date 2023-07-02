@@ -198,7 +198,13 @@
     // PYLANCE EXTENSION SETTINGS
     "python.analysis.addImport.exactMatchOnly": true,
     "python.analysis.diagnosticSeverityOverrides": {
-        "reportUnnecessaryIsInstance": "information"
+        "reportUnnecessaryIsInstance": "information",
+        "reportUnusedCallResult": "information",
+        "reportUnusedClass": "warning",
+        "reportUnusedCoroutine": "warning",
+        "reportUnusedFunction": "warning",
+        "reportUnusedImport": "none",
+        "reportUnusedVariable": "warning"
     },
     "python.analysis.importFormat": "relative",
     "python.analysis.typeCheckingMode": "strict",

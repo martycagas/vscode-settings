@@ -1,7 +1,7 @@
 {
     // EDITOR SETTINGS
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": false,
+    "editor.fontLigatures": true,
     "editor.inlineSuggest.enabled": true,
     "editor.accessibilitySupport": "off",
     "editor.bracketPairColorization.enabled": false,

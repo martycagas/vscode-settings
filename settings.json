@@ -35,7 +35,7 @@
         "*.ipynb": "jupyter-notebook"
     },
     "workbench.layoutControl.enabled": true,
-    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "GitHub Dark Default",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.tabCloseButton": "off",
     "workbench.editor.untitled.hint": "hidden",

@@ -36,9 +36,9 @@
     },
     "workbench.layoutControl.enabled": true,
     "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.editor.empty.hint": "hidden",
     "workbench.editor.highlightModifiedTabs": true,
-    "workbench.editor.tabCloseButton": "off",
-    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.tabActionCloseVisibility": false,
     "workbench.editor.wrapTabs": true,
     "workbench.settings.editor": "json",
 
@@ -47,53 +47,32 @@
         "diffEditor.ignoreTrimWhitespace": false,
         "gitlens.codeLens.symbolScopes": ["!Module"],
         "editor.rulers": [80, 120],
-        "editor.wordBasedSuggestions": false,
+        "editor.wordBasedSuggestions": "off",
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnType": true
     },
-    "[javascript]": {
+    "[javascript][javascriptreact][typescript][typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.bracketPairColorization.enabled": true
     },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.bracketPairColorization.enabled": true
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.bracketPairColorization.enabled": true
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.bracketPairColorization.enabled": true
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
+    "[json][jsonc][html][css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.wordBasedSuggestions": false,
+        "editor.wordBasedSuggestions": "off",
         "editor.tabSize": 2
     },
     "[plaintext]": {
-        "editor.wordBasedSuggestions": false
+        "editor.wordBasedSuggestions": "off"
     },
     "[git-commit]": {
         "editor.rulers": [72],
-        "editor.wordBasedSuggestions": false,
+        "editor.wordBasedSuggestions": "off",
         "workbench.editor.restoreViewState": false
     },
     "[git-rebase]": {
-        "editor.wordBasedSuggestions": false,
+        "editor.wordBasedSuggestions": "off",
         "workbench.editor.restoreViewState": false
     },
 

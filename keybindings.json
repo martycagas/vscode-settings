@@ -167,5 +167,25 @@
         "key": "ctrl+k e",
         "command": "-workbench.files.action.focusOpenEditorsView",
         "when": "workbench.explorer.openEditorsView.active"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "-cursorUndo",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "editor.action.transformToUppercase",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "editor.action.transformToLowercase",
+        "when": "textInputFocus"
     }
 ]

@@ -91,6 +91,7 @@
     // GIT SETTINGS
     "git.confirmSync": false,
     "git.defaultBranchName": "",
+    "git.openRepositoryInParentFolders": "never",
     "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
     "git.suggestSmartCommit": false,
 

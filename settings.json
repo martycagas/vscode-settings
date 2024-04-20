@@ -10,7 +10,7 @@
     "editor.dragAndDrop": false,
     "editor.emptySelectionClipboard": false,
     "editor.links": false,
-    "editor.rulers": [72, 144],
+    "editor.rulers": [100, 144],
     "editor.unicodeHighlight.allowedLocales": {
         "_os": false
     },

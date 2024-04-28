@@ -187,5 +187,15 @@
         "key": "ctrl+l",
         "command": "editor.action.transformToLowercase",
         "when": "textInputFocus"
+    },
+    {
+        "key": "alt+f1",
+        "command": "-editor.action.accessibilityHelp",
+        "when": "!accessibilityHelpIsShown"
+    },
+    {
+        "key": "alt+f1",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
     }
 ]

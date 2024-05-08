@@ -147,6 +147,7 @@
         "plaintext": false,
         "markdown": false
     },
+    "github.copilot.chat.localeOverride": "en",
 
     // ES6 AND JSON SETTINGS
     "json.maxItemsComputed": 8000,
@@ -170,6 +171,7 @@
     "python.analysis.typeCheckingMode": "strict",
 
     // GITLENS SETTINGS
+    "gitlens.plusFeatures.enabled": false,
     "gitlens.defaultDateFormat": "DD-MMMM-YYYY, HH:mm",
     "gitlens.defaultDateShortFormat": "DD-MMMM-YYYY",
     "gitlens.codeLens.enabled": false

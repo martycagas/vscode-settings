@@ -138,25 +138,6 @@
         }
     ],
 
-    // MARKDOWNLINT EXTENSION SETTINGS
-    "markdownlint.config": {
-        "default": true,
-        // Suppress MD007 to remove warnings from using table of contents
-        "MD007": false,
-        // Suppress MD014 to remove warnings from not showing a command output after using $
-        // Some commands just don't have an output to show or it's obvious what the output is
-        "MD014": false,
-        // Suppress MD026 to remove warnings from using question marks at the end of headings
-        "MD026": false,
-        // Suppress MD036 because emphasis as headers can sometimes lead to a more readable code
-        "MD036": false,
-        // Suppress MD040 because sometimes it's in order to use code block for monospaced plaintext
-        "MD040": false
-    },
-
-    // CMAKE TOOLS EXTENSION SETTINGS
-    "cmake.configureOnOpen": true,
-
     // GITHUB COPILOT EXTENSION SETTINGS
     "github.copilot.enable": {
         "*": true,
@@ -176,7 +157,6 @@
     "prettier.tabWidth": 4,
 
     // PYLANCE EXTENSION SETTINGS
-    "python.analysis.addImport.exactMatchOnly": true,
     "python.analysis.diagnosticSeverityOverrides": {
         "reportUnnecessaryIsInstance": "information",
         "reportUnusedCallResult": "none",
@@ -188,9 +168,6 @@
     },
     "python.analysis.importFormat": "relative",
     "python.analysis.typeCheckingMode": "strict",
-
-    // PYTHON EXTENSION SETTINGS
-    "python.formatting.provider": "none",
 
     // GITLENS SETTINGS
     "gitlens.defaultDateFormat": "DD-MMMM-YYYY, HH:mm",

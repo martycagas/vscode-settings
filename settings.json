@@ -107,37 +107,6 @@
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
 
-    // BETTER COMMENTS SETTINGS
-    "better-comments.tags": [
-        {
-            "tag": "!",
-            "color": "#FF2D00",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "?",
-            "color": "#3498DB",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "todo",
-            "color": "#FF8C00",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        }
-    ],
-
     // GITHUB COPILOT EXTENSION SETTINGS
     "github.copilot.enable": {
         "*": true,
@@ -148,6 +117,7 @@
         "markdown": false
     },
     "github.copilot.chat.localeOverride": "en",
+    "github.copilot.editor.enableAutoCompletions": true,
 
     // ES6 AND JSON SETTINGS
     "json.maxItemsComputed": 8000,
@@ -174,5 +144,7 @@
     "gitlens.plusFeatures.enabled": false,
     "gitlens.defaultDateFormat": "DD-MMMM-YYYY, HH:mm",
     "gitlens.defaultDateShortFormat": "DD-MMMM-YYYY",
-    "gitlens.codeLens.enabled": false
+    "gitlens.codeLens.enabled": false,
+    "gitlens.terminalLinks.enabled": false,
+    "gitlens.launchpad.indicator.enabled": false
 }

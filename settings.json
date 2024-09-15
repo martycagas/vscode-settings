@@ -107,6 +107,9 @@
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
 
+    // BLACK FORMATTER SETTINGS
+    "black-formatter.args": ["--line-length", "120"],
+
     // GITHUB COPILOT EXTENSION SETTINGS
     "github.copilot.enable": {
         "*": true,

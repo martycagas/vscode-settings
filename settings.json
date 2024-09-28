@@ -149,5 +149,8 @@
     "gitlens.defaultDateShortFormat": "DD-MMMM-YYYY",
     "gitlens.codeLens.enabled": false,
     "gitlens.terminalLinks.enabled": false,
-    "gitlens.launchpad.indicator.enabled": false
+    "gitlens.launchpad.indicator.enabled": false,
+
+    // TELEMETERY SETTINGS
+    "telemetry.telemetryLevel": "off"
 }

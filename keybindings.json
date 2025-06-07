@@ -128,16 +128,21 @@
         "when": "inQuickOpen && inRecentFilesPicker"
     },
     {
-        "key": "ctrl+k w",
-        "command": "-workbench.action.closeEditorsInGroup"
-    },
-    {
-        "key": "ctrl+k w",
-        "command": "workbench.action.closeActiveEditor"
-    },
-    {
         "key": "ctrl+f4",
         "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "-editor.action.defineKeybinding"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "-editor.action.selectFromAnchorToCursor",
+        "when": "editorTextFocus && selectionAnchorSet"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "workbench.action.closeActiveEditor"
     },
     {
         "key": "ctrl+k ctrl+o",

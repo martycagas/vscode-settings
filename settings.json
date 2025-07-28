@@ -150,6 +150,17 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.terminalLinks.enabled": false,
     "gitlens.launchpad.indicator.enabled": false,
+    "gitlens.hovers.pullRequests.enabled": false,
+    "gitlens.graph.issues.enabled": false,
+    "gitlens.graph.pullRequests.enabled": false,
+    "gitlens.views.fileHistory.pullRequests.enabled": false,
+    "gitlens.views.branches.pullRequests.enabled": false,
+    "gitlens.views.branches.pullRequests.showForBranches": false,
+    "gitlens.views.searchAndCompare.pullRequests.enabled": false,
+    "gitlens.views.commits.pullRequests.enabled": false,
+    "gitlens.views.commits.pullRequests.showForBranches": false,
+    "gitlens.currentLine.pullRequests.enabled": false,
+    "gitlens.statusBar.pullRequests.enabled": false,
 
     // TELEMETERY SETTINGS
     "telemetry.telemetryLevel": "off"

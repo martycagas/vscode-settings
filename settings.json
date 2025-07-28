@@ -120,7 +120,6 @@
         "markdown": false
     },
     "github.copilot.chat.localeOverride": "en",
-    "github.copilot.editor.enableAutoCompletions": true,
 
     // ES6 AND JSON SETTINGS
     "json.maxItemsComputed": 8000,
